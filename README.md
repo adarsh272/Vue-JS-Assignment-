@@ -17,23 +17,53 @@
 
 ## Installation
 
-1. Clone the repository:
+**Prerequisites**
+- Node.js (v14 or later)
+- npm
+
+### Clone the repository:
 ```sh
 git clone https://github.com/adarsh272/Vue-JS-Assignment-.git
 cd Vue-JS-Assignment
 ```
-2. Install Dependencies:
-```sh
-npm install
-```
-3. Create a .env file for environment variables (PORT 8080).
+### Backend Setup
 
-4. Start the development server:
-```
-npm run dev
-```
+1. Navigate to the country-backend directory:
+   ```
+   cd country-backend
+   ```
+2. Create a .env file for environment variables (PORT 8080).
+3. Install backend dependencies:
+   ```
+   npm install
+   ```
+4. Start the backend server:
+   ```
+   node server.js
+   ```
+
+The backend server should now be running on http://localhost:8080.
+
+### Frontend Setup
+
+1. Navigate to the country-frontend directory:
+   ```
+   cd country-frontend
+   ```
+2. Install frontend dependencies:
+   ```
+   npm install
+   ```
+4. Start the frontend server:
+   ```
+   npm run dev
+   ```
+The frontend app should now be running on http://localhost:{someport}.
+
+With the frontend and backend servers running, you can access the application via the frontend URL at http://localhost:{someport}. The frontend will communicate with the backend server running on http://localhost:8080.
+
 ## File Structure
-The project follows a clear separation of concerns, ensuring that each part of the codebase has a specific responsibility. This ensures easy debugging and avoidance of tightly coupled components/logic:
+The project follows a clear separation of concerns, ensuring each part of the codebase has a specific responsibility. This ensures easy debugging and avoidance of tightly coupled components/logic:
 
 Inside *country-frontend*:
 - **src/**: Contains the frontend Vue.js components and store.
