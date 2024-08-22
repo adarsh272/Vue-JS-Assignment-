@@ -111,7 +111,7 @@ This is to ensure data consistency and prevent invalid inputs on both UI and API
 
 ## Deployment
 
-The application is deployed on [Your Deployment Platform].
+The application is deployed on Vercel + Render.
 
 ## Improvements
 
@@ -127,7 +127,7 @@ The application is deployed on [Your Deployment Platform].
 
 ## Demo
 
-Check out the live demo [here](https://your-deployment-site.com).
+Check out the live demo [here](https://cf-2fo8oer9m-adarshs-projects-34f88032.vercel.app/).
 
 ## Conclusion
 
